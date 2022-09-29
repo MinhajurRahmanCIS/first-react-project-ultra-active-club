@@ -25,7 +25,7 @@ const Skills = () => {
         <div className='skills-container'>
          <div className="trainings-container">
             {
-                skills.map(skill => <Skill /*key={skill.id} */skill={skill} /*listClick={listClick}*/></Skill>)
+                skills.map(skill => <Skill key={skill.id} skill={skill} /*listClick={listClick}*/></Skill>)
             }
             
             

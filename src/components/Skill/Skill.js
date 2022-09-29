@@ -1,12 +1,12 @@
 import React from 'react';
 import './Skill.css'
 const Skill = (props) => {
-    // const {picture, name, about, ForAge, TimeRequired} = props.skill;
+    const {picture, name, about, ForAge, TimeRequired} = props.skill;
     // const {listClick} = props;
     return (
         
         <div className='skill'>
-            {/* {
+            {
                 <div>
                     <img src={picture} alt="" />
                     <div className='skill-info'>
@@ -19,7 +19,7 @@ const Skill = (props) => {
                 </div>
                 
 
-            } */}
+            }
         </div>
     );
 };
