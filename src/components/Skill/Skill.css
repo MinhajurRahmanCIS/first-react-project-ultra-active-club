@@ -1,5 +1,5 @@
 .skill{
-    background-color: lightgray;
+    background-color: rgba(240, 248, 255, 0.475);
     border: 1px solid #95A0A7;
     border-radius: 8px;
     width: 300px;
@@ -23,6 +23,8 @@
     margin-top: 5px;
 }
 .btn-skill{
+    cursor: pointer;
+    background-color: dodgerblue;
     height: 8%;
     position: absolute;
     bottom: 0;
@@ -36,6 +38,7 @@
 
 .btn-skill:hover{
    background-color: rgb(77, 127, 177);
+   color: white;
 }
 .skill-name{
     font-weight: 700;

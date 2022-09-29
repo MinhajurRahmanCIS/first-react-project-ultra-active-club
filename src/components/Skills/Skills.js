@@ -9,13 +9,13 @@ const Skills = () => {
     const [list, setList] = useState([]);
 
 
-  
+
     useEffect(() => {
-      fetch("skills.json")
-      .then(res => res.json())
-      .then(data => setSkills(data))
+        fetch("skills.json")
+            .then(res => res.json())
+            .then(data => setSkills(data))
     }, [])
-    
+
     const listClick = (skill) => {
         console.log(skill)
         const newList = [...list, skill]
@@ -24,19 +24,19 @@ const Skills = () => {
 
     return (
         <div className='skills-container'>
-         <div className="trainings-container">
-            {
-                skills.map(skill => <Skill key={skill.id} skill={skill} listClick={listClick}></Skill>)
-            }
-            
-            
-         </div>
+            <div className="trainings-container">
+                {
+                    skills.map(skill => <Skill key={skill.id} skill={skill} listClick={listClick}></Skill>)
+                }
 
-        <div className="list-container">
 
-            <List list={list}></List>
-            
-        </div>
+            </div>
+
+            <div className="list-container">
+
+                <List list={list}></List>
+
+            </div>
 
 
         </div>

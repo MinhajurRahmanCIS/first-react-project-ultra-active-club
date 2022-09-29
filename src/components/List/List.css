@@ -6,12 +6,13 @@
 .user img{
     width: 40%;
     height: 40%;
-    border-radius: 50%;
+    border-radius: 60%;
 }
 .user-info{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .user-details{
@@ -20,7 +21,7 @@
     align-items: center;
     background-color: rgba(240, 248, 255, 0.475);
     border-radius: 10px;
-   padding: 10px;
+    padding: 10px;
 }
 
 .break{
@@ -61,6 +62,13 @@
 }
 
 .exercise-time{
+    background-color: rgba(240, 248, 255, 0.672);
+    border-radius: 5px;
+    padding: 1px 0px 1px 0px;
+}
+.break-time{
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: rgba(240, 248, 255, 0.672);
     border-radius: 5px;
     padding: 1px 0px 1px 0px;
