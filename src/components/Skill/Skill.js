@@ -1,7 +1,7 @@
 import React from 'react';
 import './Skill.css'
 const Skill = (props) => {
-    const {picture, name, about, ForAge, TimeRequired} = props.skill;
+    const {picture, name, about, forAge, timeRequired} = props.skill;
     const {listClick} = props;
     return (
         
@@ -12,8 +12,8 @@ const Skill = (props) => {
                     <div className='skill-info'>
                     <p className='skill-name'>{name} </p>
                     <p>{about}</p>
-                    <p><strong>For Age :</strong>{ForAge}</p>
-                    <p> <strong>Time required :</strong> {TimeRequired}</p>
+                    <p><strong>For Age :</strong>{forAge}</p>
+                    <p> <strong>Time required :</strong> {timeRequired}s</p>
                     </div>
                     <button onClick={() => listClick(props.skill)} className='btn-skill'>Add to list</button>
                 </div>

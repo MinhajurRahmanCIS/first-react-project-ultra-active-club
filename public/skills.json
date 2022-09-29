@@ -4,47 +4,47 @@
         "picture": "https://cdn.mos.cms.futurecdn.net/MfisbmWyezvQBRWB7iN4YX.jpg",
         "name": "Attacking Practice",
         "about": "Soccer Attacking Drills focus on scoring goals by moving the ball forward to create chances.",
-        "ForAge": "18-35",
-        "TimeRequired": "30"
+        "forAge": "18-35",
+        "timeRequired": 120
     },
     {
         "id": "2",
         "picture": "https://i.ytimg.com/vi/TGOXh1sEahA/maxresdefault.jpg",
         "name": "Free kick",
         "about": "Every starting line up should preferably have 2 good free kick takers.",
-        "ForAge": "18-35",
-        "TimeRequired": "30"
+        "forAge": "18-35",
+        "timeRequired": 240
     },
     {
         "id": "3",
         "picture": "https://i.pinimg.com/originals/07/76/da/0776daded68920d37af6e46d08e989ba.png",
         "name": "Left Corner Kick",
         "about": "Since I'm left footed, I would take much better corners from the left side because the ball would curve away from the goal.",
-        "ForAge": "18-35",
-        "TimeRequired": "30"
+        "forAge": "18-35",
+        "timeRequired": 360
     },
     {
         "id": "4",
         "picture": "https://cdn.givemesport.com/wp-content/uploads/2022/06/2022-06-01T201351Z_828860833_UP1EI611K71L5_RTRMADP_3_SOCCER-FINALISSIMA-ITA-ARG-REPORT-1024x722.jpg",
         "name": "Right Corner Kick",
         "about": "The aim of this study is to analyses the corner kicks taken in the matches played in the FIFA 2018 World Cup.",
-        "ForAge": "18-35",
-        "TimeRequired": "30"
+        "forAge": "18-35",
+        "timeRequired": 100
     },
     {
         "id": "5",
         "picture": "https://i.ytimg.com/vi/h3VMMmE5Hos/maxresdefault.jpg",
         "name": "Penalty Kick",
         "about": "A penalty kick is a method of restarting play in association football",
-        "ForAge": "18-35",
-        "TimeRequired": "30"
+        "forAge": "18-35",
+        "timeRequired": 180
     },
     {
         "id": "6",
         "picture": "https://i.ytimg.com/vi/GRTcrnJj_HA/maxresdefault.jpg",
         "name": "Goalkeeping",
         "about": "The goalkeeper should have his arms apart and have his weight slightly on his toes",
-        "ForAge": "18-35",
-        "TimeRequired": "30"
+        "forAge": "18-35",
+        "timeRequired": 190
     }
 ]

@@ -1,0 +1,67 @@
+.list{
+    position: sticky;
+    top: 0;
+    padding: 30px;
+}
+.user img{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.475);
+    border-radius: 10px;
+   padding: 10px;
+}
+
+.break{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.add-break{
+    margin-top: 50px;
+ }
+.btn-second{
+    background-color: rgba(240, 248, 255, 0.653);
+    border-radius: 10%;
+    border: none;
+    padding: 10px;
+}
+.btn-second:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    .user img{
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+    }
+
+    .user-text{
+        font-size: 10px;
+    }
+    .user-details div{
+        margin: 5px;
+    }
+}
+
+.exercise-time{
+    background-color: rgba(240, 248, 255, 0.672);
+    border-radius: 5px;
+    padding: 1px 0px 1px 0px;
+}

@@ -35,7 +35,6 @@ const Skills = () => {
         <div className="list-container">
 
             <List list={list}></List>
-
             
         </div>
 
