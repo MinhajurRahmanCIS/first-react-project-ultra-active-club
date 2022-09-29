@@ -5,7 +5,7 @@ import Skill from '../Skill/Skill';
 const Skills = () => {
 
     const [skills, setSkills] = useState([]);
-    // const [list, setList] = useState([]);
+    const [list, setList] = useState([]);
 
 
   
@@ -15,17 +15,17 @@ const Skills = () => {
       .then(data => setSkills(data))
     }, [])
     
-    // const listClick = (skill) => {
-    //     console.log(skill)
-    //     const newList = [...list, skill]
-    //     setList(newList);
-    // }
+    const listClick = (skill) => {
+        console.log(skill)
+        const newList = [...list, skill]
+        setList(newList);
+    }
 
     return (
         <div className='skills-container'>
          <div className="trainings-container">
             {
-                skills.map(skill => <Skill key={skill.id} skill={skill} /*listClick={listClick}*/></Skill>)
+                skills.map(skill => <Skill key={skill.id} skill={skill} listClick={listClick}></Skill>)
             }
             
             

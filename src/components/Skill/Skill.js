@@ -2,7 +2,7 @@ import React from 'react';
 import './Skill.css'
 const Skill = (props) => {
     const {picture, name, about, ForAge, TimeRequired} = props.skill;
-    // const {listClick} = props;
+    const {listClick} = props;
     return (
         
         <div className='skill'>
@@ -15,7 +15,7 @@ const Skill = (props) => {
                     <p><strong>For Age :</strong>{ForAge}</p>
                     <p> <strong>Time required :</strong> {TimeRequired}</p>
                     </div>
-                    <button  className='btn-skill'>Add to list</button>
+                    <button onClick={() => listClick(props.skill)} className='btn-skill'>Add to list</button>
                 </div>
                 
 
