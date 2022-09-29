@@ -1,10 +1,11 @@
 import React from 'react';
 import './List.css'
-const List = () => {
+const List = ({list}) => {
+    
     return (
         <div>
             <h2>Info</h2>
-            {/* <p>Select Item: {list.length}</p> */}
+            <p>Select Item: {list.length}</p>
         </div>
     );
 };
