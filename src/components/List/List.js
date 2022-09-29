@@ -1,10 +1,11 @@
 import React from 'react';
 import './List.css'
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 const List = (props) => {
 
    const {list} =props;
    
-   console.log(list);
 
   let total = 0;
    for(const skill of list){
@@ -13,6 +14,9 @@ const List = (props) => {
 
    }
     
+   const complete = () => {
+    toast('Activity Completed Successfully!', {position:"top-center"})
+   }
     return (
         <div className='list'>
             
@@ -58,7 +62,7 @@ const List = (props) => {
 
             </div>
 
-            <button className='activity'>Activity Completed</button>
+            <button onClick={complete} className='activity'>Activity Completed</button> <ToastContainer/>
         </div>
     );
 };

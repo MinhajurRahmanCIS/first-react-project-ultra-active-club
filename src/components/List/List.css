@@ -65,3 +65,14 @@
     border-radius: 5px;
     padding: 1px 0px 1px 0px;
 }
+.activity{
+    padding: 10px;
+    border: none;
+    background-color:  rgba(240, 248, 255, 0.672);
+    font-weight: 700;
+
+}
+.activity:hover {
+    background-color: azure;
+    cursor: pointer;
+}
