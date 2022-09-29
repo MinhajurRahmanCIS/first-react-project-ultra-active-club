@@ -2,6 +2,7 @@ import React from 'react';
 import './Skills.css'
 import { useEffect, useState } from 'react';
 import Skill from '../Skill/Skill';
+import List from '../List/List';
 const Skills = () => {
 
     const [skills, setSkills] = useState([]);
@@ -33,8 +34,9 @@ const Skills = () => {
 
         <div className="list-container">
 
-            <h2>Info</h2>
-            <p>Select Item: {list.length}</p>
+            <List></List>
+
+            
         </div>
 
 
