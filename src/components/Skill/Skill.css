@@ -1,0 +1,44 @@
+.skill{
+    background-color: lightgray;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    width: 300px;
+    height: 510px;
+    position: relative;
+}
+
+.skill img{
+    width: 286px;
+    height: 286px;
+    border-radius: 8px;
+    margin: 7px;
+}
+.skill-info{
+    padding: 0 5px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.skill-info p {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.btn-skill{
+    height: 8%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.btn-skill:hover{
+   background-color: rgb(77, 127, 177);
+}
+.skill-name{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px; 
+    margin-top: 7px;
+}
